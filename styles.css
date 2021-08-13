@@ -1,0 +1,39 @@
+table {
+  font-size: 2.5rem;
+}
+
+th {
+  font-family: 'Berkshire Swash', cursive;
+}
+
+.customers {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.customers td, .customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.customers tr:nth-child(even){
+  background-color: #CBF1F5;
+  font-family: 'Overlock', cursive;
+}
+
+.customers tr:nth-child(odd){
+  background-color: #E3FDFD;
+  font-family: 'Overlock', cursive;
+}
+
+.customers tr:hover {
+  background-color: #A6E3E9;
+}
+
+.customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #71C9CE;
+  color: white;
+}
